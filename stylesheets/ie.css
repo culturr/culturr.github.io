@@ -1,0 +1,29 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+ @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+ html {
+   scroll-behavior: auto;
+
+ }
+ html, body {
+   height: 100vh;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: bold;
+   color: #fff;
+   letter-spacing: 5px;
+ }
+ body{
+   background: #313134;
+ }
+ .cultur{
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ }
+ #section2 {
+   height: 100%;
+   background-color: white;
+ }
